@@ -4,8 +4,7 @@ body{
     width: 100vw;
     height: 100vh;
     display: flex;
-    justify-content: center;
-    
+    justify-content: center;    
     background-image: url(../assets/images/Bg-menu.svg);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -52,4 +51,20 @@ body{
     width: 120px; 
     height: 120px;
     object-fit: cover;  
+}
+
+.menu-button-upper-row{
+    display: flex;
+    justify-content: space-around;
+    gap: 93px;    
+}
+
+.btn-menu button{    
+    background-color: var(--color-secundary-light-red);
+    display: flex;
+    border-radius: 0px 20px 20px 20px;
+    width: 420px;
+    height: 72px;
+    justify-content: space-around;
+    align-items: center;
 }
