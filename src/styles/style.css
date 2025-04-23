@@ -1,18 +1,14 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Inter", sans-serif;
-}    
+@import url(./global.css);
 
 body{    
     display: flex;
-    background-color: #1F1F1F;
+    background-color:var(--color-primary-dark-gray);
+    justify-content: center;
 }
 
 body h1{
-    color: white;
-    font-size: 48px;
+    color: var(--color-neutral-white);
+    font-size: var(--headline1);
     text-align: center;
     margin-bottom: 64px;
 }
@@ -22,9 +18,9 @@ body h1{
 }
 
 .text-box p{
-    color: white;
-    font-size: 24px;
-    font-weight: 600;
+    color: var(--color-neutral-white);
+    font-size: var(--paragraph1);
+    font-weight: var(--paragraph-weight);
     text-align: center;
     margin-bottom: 112px;    
 }
@@ -44,22 +40,22 @@ body h1{
 .form-box input{
     width: 420px;
     height: 72px;
-    color: #424242;
+    color: var(--color-neutral-gray);
     padding: 0px 51px;
 }
 
 .form-box input::placeholder{
-    font-size: 16px;    
+    font-size: var(--input-text);    
 }
 
 .form-box button{
     width: 420px;
     height: 72px;
-    background-color: #D45246;
+    background-color:var(--color-secundary-light-red);
     border: none;
-    color: white;
+    color: var(--color-neutral-white);
     cursor: pointer;
-    transition: 0.1 ease;
+    transition: 0.1s ease;
 }
 
 .form-box button:active{
@@ -87,7 +83,7 @@ body h1{
 }
 
 .rodape p{
-    color: #9E9E9E;
-    font-size: 12.8px;
+    color: var(--color-neutral-light-gray);
+    font-size: var(--rodape-text);
 }
 

@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+:root{
+    --color-neutral-white: #FFFFFF;
+    --color-neutral-black: #000000; 
+    --color-neutral-light-gray: #9E9E9E;  
+    --color-neutral-gray: #424242;
+    --color-primary-dark-gray: #1F1F1F;
+    --color-secundary-light-red: #D45246;
+
+    --headline1: 48px;
+    --headline1-weight: 700;
+
+    --headline2: 40px;
+    --headline2-weight: 500;
+
+    --paragraph1: 24px;
+    --paragraph-weight: 600;
+    
+    --button-text: 20px;
+    --button-weight: 500;
+
+    --input-text: 16px;
+
+    --rodape-text: 12.8px;
+}
