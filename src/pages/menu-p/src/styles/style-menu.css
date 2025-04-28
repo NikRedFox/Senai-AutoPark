@@ -53,10 +53,11 @@ body{
     object-fit: cover;  
 }
 
-.menu-button-upper-row{
+.menu-button-row{
     display: flex;
     justify-content: space-around;
-    gap: 93px;    
+    gap: 73px;   
+    margin-bottom: 30px; 
 }
 
 .btn-menu button{    
@@ -67,4 +68,16 @@ body{
     height: 72px;
     justify-content: space-around;
     align-items: center;
+    color: var(--color-neutral-white);
+    font-size: var(--button-text);
+    font-weight: var(--button-weight);
+    padding: 0px 20px;
+    cursor: pointer;
+}
+
+.menu-button-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 59px;
 }
