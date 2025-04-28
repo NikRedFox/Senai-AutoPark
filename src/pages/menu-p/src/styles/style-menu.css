@@ -18,11 +18,11 @@ body{
     background-color: var(--color-primary-dark-gray);
     width: 90%;
     max-width: 1104px;
+    height: 100%;
     padding: 20px;
     gap: 26px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
     border-radius: 8px;
-    position: relative;
 }
 
 .menu-title-container{
@@ -66,13 +66,13 @@ body{
     border-radius: 0px 20px 20px 20px;
     width: 420px;
     height: 72px;
-    justify-content: space-around;
     align-items: center;
     color: var(--color-neutral-white);
     font-size: var(--button-text);
     font-weight: var(--button-weight);
-    padding: 0px 20px;
+    padding: 0px 50px;
     cursor: pointer;
+    gap: 30px;
 }
 
 .menu-button-column{
