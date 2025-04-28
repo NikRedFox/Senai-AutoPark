@@ -1,1 +1,45 @@
 @import url(../../../../styles/global.css);
+main{
+    display: flex;
+    background-color: var(--color-primary-dark-gray);
+    color: var(--color-neutral-white);
+}
+.content-container{
+    display: flex;
+    flex-direction: column;
+    width: 100vh;
+    margin-left: 109px;    
+}
+
+.title-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    gap: 13px;
+}
+
+.title-container h1{
+    font-size: var(--headline1);
+    text-align: center;
+}
+
+.title-container p {
+    font-size: var(--paragraph1);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    height: 692px;
+}
+
+form input{
+    width: 365px;
+    height: 20px;
+    background-color: transparent;
+    border-bottom: 2px solid var(--color-neutral-light-gray);
+}
