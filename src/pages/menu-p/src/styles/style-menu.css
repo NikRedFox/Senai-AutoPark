@@ -59,8 +59,8 @@ body{
     gap: 73px;   
     margin-bottom: 30px; 
 }
-
-.btn-menu button{    
+    
+.btn-menu a{    
     background-color: var(--color-secundary-light-red);
     display: flex;
     border-radius: 0px 20px 20px 20px;

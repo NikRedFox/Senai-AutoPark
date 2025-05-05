@@ -4,6 +4,8 @@ main{
     background-color: var(--color-primary-dark-gray);
     color: var(--color-neutral-white);
 }
+
+
 .content-container{
     display: flex;
     flex-direction: column;
