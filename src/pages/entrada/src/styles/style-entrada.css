@@ -35,13 +35,16 @@ form{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
     height: 692px;
+}
+
+form label{    
+    align-items: start;
 }
 
 form input{
     width: 365px;
-    height: 20px;
+    height: 40px;
     background-color: transparent;
     border-bottom: 2px solid var(--color-neutral-light-gray);
 }
