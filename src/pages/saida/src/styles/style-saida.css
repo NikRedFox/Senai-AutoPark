@@ -1,0 +1,10 @@
+@import url(../../../../styles/global.css);
+main{
+    display: flex;
+    background-color: var(--color-primary-dark-gray);
+    color: var(--color-neutral-white);
+}
+
+.content-container{
+    
+}
