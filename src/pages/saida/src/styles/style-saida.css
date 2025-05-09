@@ -6,5 +6,164 @@ main{
 }
 
 .content-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 65px 116px ;
+    gap: 50px;
+}
+
+.saida-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 46px;
+}
+
+.saida-container form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 76px;
+}
+
+.saida-container button{
+    width: 296px;
+    height: 51px;
+    background-color: var(--color-secundary-light-red);
+    color: var(--color-neutral-white);
+    border-radius: 0px 10px 10px 10px;
+    font-size: var(--button-text);
+    font-weight: var(--button-weight);
+    align-items: center;
+}
+
+.title-container h1{
+    font-size: var(--headline1);
+    font-weight: var(--headline1-weight);
+}
+
+.input-box{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.input-box label{
+    font-size: var(--button-text);
+    font-weight: var(--button-weight);
+}
+
+.input-box input{
+    background-color: var(--color-off-white);
+    height: 67px;
+    width: 567px;
+    border-radius: 5px;
+}
+
+.input-box input::placeholder{
+    padding-left: 15px;
+    font-size: var(--input-text);
+}
+
+.cobranca-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 38px;
+}
+
+.cobranca-container h2{
+    font-size: var(--headline2);
+    font-weight: var(--headline2-weight);
+}
+
+.preco-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 668px;
+    height: 257px;
+    padding: 41px 61px;
+    gap: 29px;
+    border-radius: 0px 20px 20px 20px;
+    background-color: var(--color-off-white);
+}
+
+.preco-box h3{
+    font-size: var(--paragraph1);
+    font-weight: var(--paragraph-weight);
+    color: var(--color-neutral-black);
+}
+
+.preco-box h4{
+    font-size: var(--headline1);
+    font-weight: var(--headline1-weight);
+    color: var(--color-secundary-light-red);
+}
+
+.date-box{
+    display: flex;
+    gap: 196px;
+}
+
+.date-card{
+    display: flex;
+    width: 174px;
+    height: 48px;
+    padding: 9px 12px;
+    border-radius: 10px;
+    border: 2px solid var(--color-neutral-light-gray) ;
+    color: var(--color-neutral-light-gray);
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+.date-text{
+    display: flex;
+    flex-direction: column;
+    font-size: var(--small-text);
+    color: var(--color-neutral-black);
+    gap: ;
+}
+
+.hour-box{
+    display: flex;
+    gap: 10px;
+}
+
+.pagamento-box{
+    display: flex;
+    gap: 53px;
+}
+
+.pagamento-button{
+    display: flex;
+    width: 305px;
+    height: 73px;
+    background-color: var(--color-secundary-light-red);    
+    border-radius: 0px 10px 10px 10px;
+    padding: 20px 10px;
+    justify-content: center;
     
+}
+
+.pagamento-button a{
+    text-decoration: none;
+    color: var(--color-neutral-white);
+    font-size: var(--button-text);
+    font-weight: var(--button-weight);    
+}
+
+.rodape{
+    position: absolute;
+    text-align: start;
+    bottom: -340px;
+    left: 650px;
+}
+
+.rodape p{
+    font-size: var(--rodape-text);
+    color: var(--color-neutral-light-gray);
 }

@@ -8,6 +8,7 @@
 
 :root{
     --color-neutral-white: #FFFFFF;
+    --color-off-white: #FAFAFA;
     --color-neutral-black: #000000; 
     --color-neutral-light-gray: #9E9E9E;  
     --color-neutral-gray: #424242;
@@ -29,4 +30,6 @@
     --input-text: 16px;
 
     --rodape-text: 12.8px;
+
+    --small-text: 10px;
 }
