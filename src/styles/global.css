@@ -15,11 +15,17 @@
     --color-primary-dark-gray: #1F1F1F;
     --color-secundary-light-red: #D45246;
 
+    --vagas-number: 128px;
+    --vagas-weight: bold;
+
     --headline1: 48px;
     --headline1-weight: 700;
 
     --headline2: 40px;
     --headline2-weight: 500;
+
+    --headline3: 32px;
+    --headline3-weight: bold;
 
     --paragraph1: 24px;
     --paragraph-weight: 600;

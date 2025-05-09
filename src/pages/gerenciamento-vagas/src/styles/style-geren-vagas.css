@@ -1,0 +1,102 @@
+@import url(../../../../styles/global.css);
+
+body{
+    width: 100vw;
+    display: flex;
+    justify-content: center;    
+    background-image: url(../assets/images/Background-vagas.svg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center; 
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--color-primary-dark-gray);
+    color: var(--color-neutral-white);
+    width: 1083px;
+    height: 1024px;
+    padding: 45px 102px 70px 102px ;
+}
+
+.logo-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+}
+
+.logo-container h1{
+    font-size: var(--headline1);
+    font-weight: var(--headline1-weight);
+}
+
+.logo-container img{
+    width: 50%;
+}
+
+.vagas-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--color-neutral-white);
+    width: 880px;
+    height: 564px;
+    border-radius: 8px;
+    color: var(--color-neutral-black);
+    margin-top: 43px;
+    padding: 69px;
+}
+
+.vagas-text{
+    display: flex;
+    justify-content: space-around;
+    gap: 160px;
+}
+
+.vagas-text p{
+    font-size: var(--headline3);
+    font-weight: var(--headline3-weight);
+}
+
+.vagas-numbers{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 160px;
+}
+
+.vagas-numbers p{
+     font-size: var(--vagas-number);
+    font-weight: var(--vagas-weight);
+}
+
+.black-bar{
+    background-color: var(--color-neutral-black);
+    width: 7px;
+    height: 373px;
+    border-radius: 8px;
+}
+
+.vagas-button{
+    display: flex;
+    background-color: var(--color-secundary-light-red);
+    width: 296px;
+    height: 51px;
+    border-radius: 0px 10px 10px 10px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.vagas-button a{
+    text-decoration: none;
+    color: var(--color-neutral-white);
+}
+
+
+
+
