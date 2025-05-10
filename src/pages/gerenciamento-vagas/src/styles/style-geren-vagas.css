@@ -90,6 +90,7 @@ main{
     align-items: center;
     justify-content: center;
     margin-top: 70px;
+    cursor: pointer;
 }
 
 .vagas-button a{
