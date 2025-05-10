@@ -1,0 +1,82 @@
+@import url(../../../../styles/global.css);
+
+body{
+    width: 100vw;
+    display: flex;
+    justify-content: center;    
+    background-image: url(../assets/images/Bg-menu.svg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center; 
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--color-primary-dark-gray);
+    color: var(--color-neutral-white);
+    width: 1083px;
+    height: 1024px;
+    padding: 45px 102px 70px 102px ;
+    gap: 30px;
+}
+
+.logo-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.listar-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--color-neutral-light-gray);
+    border-radius: 20px;
+    width: 866px;
+    height: 548px;
+    padding: 31px 50px;
+}
+
+.listar-box th{
+    color: var(--color-neutral-black);
+    font-size: var(--button-text);
+    font-weight: var(--button-weight);
+}
+
+.table-container td{
+    gap: 74px;
+    color: var(--color-neutral-black);
+    font-size: var(--button-text);
+    font-weight: var(--button-weight);
+}
+
+
+.listar-data td{
+    display: flex;
+    gap: 74px;
+    color: var(--color-neutral-black);
+    font-size: var(--button-text);
+    font-weight: var(--button-weight);
+}
+
+.button-container{
+    display: flex;
+    width: 420px;
+    height: 72px;
+    background-color: var(--color-secundary-light-red);
+    border-radius: 0px 10px 10px 10px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    cursor: pointer;
+}
+
+.button-container a{
+    text-decoration: none;
+    color: var(--color-neutral-white);
+}
+
