@@ -47,7 +47,6 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: ;
 }
 
 .cadastro-form{
@@ -63,7 +62,7 @@ main{
 }
 
 .cadastro-form input::placeholder{
-    padding-left: 20px;
+    padding-left: 50px;
 }
 
 .btn-cadastro{
@@ -81,4 +80,14 @@ main{
     cursor: pointer;
     margin-top: 20px;
     justify-content: center;
+}
+
+.input-box{
+    position: relative;
+}
+
+.input-box img{
+    position: absolute;
+    top: 30%;
+    left: 10px;
 }

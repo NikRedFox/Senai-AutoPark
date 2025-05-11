@@ -17,11 +17,26 @@
 
         <form method="post" action="">
             <fieldset class="cadastro-form">
-                <input type="text" placeholder="Nome Completo" id="nome_completo" name="nome_completo" required>
-                <input type="text" placeholder="Usuário" id="usuario" name="usuario" required>
-                <input type="password" placeholder="Senha" id="senha" name="senha" required>
-                <input type="email" placeholder="E-mail" id="email" name="email" required>
-                <input type="text" placeholder="Cargo" id="cargo" name="cargo" required>
+                <div class="input-box">
+                    <img src="./src/assets/images/icon-user.svg" alt="">
+                    <input type="text" placeholder="Nome Completo" id="nome_completo" name="nome_completo" required>
+                </div>
+                <div class="input-box">
+                    <img src="./src/assets/images/icon-user.svg" alt="">
+                    <input type="text" placeholder="Usuário" id="usuario" name="usuario" required>
+                </div>
+                <div class="input-box">
+                    <img src="./src/assets/images/lock.svg" alt="">
+                    <input type="password" placeholder="Senha" id="senha" name="senha" required>
+                </div>
+                <div class="input-box">
+                    <img src="./src/assets/images/mail.svg" alt="">
+                    <input type="email" placeholder="E-mail" id="email" name="email" required>
+                </div>
+                <div class="input-box">
+                    <img src="./src/assets/images/Briefcase.svg" alt="">
+                    <input type="text" placeholder="Cargo" id="cargo" name="cargo" required>
+                </div>
             </fieldset>
 
             <button class="btn-cadastro" type="submit">Cadastrar</button>
