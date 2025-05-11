@@ -11,6 +11,25 @@ body{
     background-position: center;
 }
 
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cadastro-title-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.cadastro-title-container h1{
+    font-size: var(--headline1);
+    font-weight: var(--headline1-weight);
+    color: var(--color-neutral-white);
+}
+
 .cadastro-container{
     display: flex;
     flex-direction: column;
@@ -19,7 +38,47 @@ body{
     max-width: 1104px;
     height: 100vh;
     padding: 20px;
-    gap: 150px;
+    gap: 82px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
     border-radius: 8px;
+}
+
+.cadastro-container form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: ;
+}
+
+.cadastro-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px
+}
+
+.cadastro-form input{
+    width: 420px;
+    height: 72px;
+}
+
+.cadastro-form input::placeholder{
+    padding-left: 20px;
+}
+
+.btn-cadastro{
+    background-color: var(--color-secundary-light-red);
+    display: flex;
+    border-radius: 0px 20px 20px 20px;
+    width: 420px;
+    height: 72px;
+    align-items: center;
+    color: var(--color-neutral-white);
+    font-size: var(--button-text);
+    font-weight: var(--button-weight);
+    padding: 0px 50px;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 40px;
+    justify-content: center;
 }
