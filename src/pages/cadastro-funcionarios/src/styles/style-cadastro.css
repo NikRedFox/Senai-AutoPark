@@ -1,0 +1,25 @@
+@import url(../../../../styles/global.css);
+
+body{
+    width: 100vw;
+    display: flex;
+    justify-content: center;    
+    background-image: url(../assets/images/Bg-menu.svg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.cadastro-container{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-primary-dark-gray);
+    width: 100%;
+    max-width: 1104px;
+    height: 100vh;
+    padding: 20px;
+    gap: 150px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+}
