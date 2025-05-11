@@ -1,0 +1,84 @@
+@import url(../../../../styles/global.css);
+
+body{
+    width: 100vw;
+    display: flex;
+    justify-content: center;    
+    background-image: url(../assets/images/Bg-menu.svg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.alterar-title-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.alterar-title-container h1{
+    font-size: var(--headline1);
+    font-weight: var(--headline1-weight);
+    color: var(--color-neutral-white);
+}
+
+.alterar-container{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-primary-dark-gray);
+    width: 100%;
+    max-width: 1104px;
+    height: 100vh;
+    padding: 20px;
+    gap: 82px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+}
+
+.alterar-container form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: ;
+}
+
+.alterar-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px
+}
+
+.alterar-form input{
+    width: 420px;
+    height: 72px;
+}
+
+.alterar-form input::placeholder{
+    padding-left: 20px;
+}
+
+.btn-alterar{
+    background-color: var(--color-secundary-light-red);
+    display: flex;
+    border-radius: 0px 20px 20px 20px;
+    width: 420px;
+    height: 72px;
+    align-items: center;
+    color: var(--color-neutral-white);
+    font-size: var(--button-text);
+    font-weight: var(--button-weight);
+    padding: 0px 50px;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 20px;
+    justify-content: center;
+}
