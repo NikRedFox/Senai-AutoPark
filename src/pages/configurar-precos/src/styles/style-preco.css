@@ -68,11 +68,8 @@ form{
 
 .precos-form input{
     width: 420px;
-    height: 72px;
-}
-
-.precos-form input::placeholder{
-    padding-left: 70px;
+    height: 72px;    
+    padding: 0px 0px 0px 70px;
 }
 
 .btn-precos{

@@ -59,9 +59,6 @@ main{
 .alterar-form input{
     width: 420px;
     height: 72px;
-}
-
-.alterar-form input::placeholder{
     padding-left: 50px;
 }
 
