@@ -1,0 +1,75 @@
+@import url(./global.css);
+main{
+    display: flex;
+    background-color: var(--color-primary-dark-gray);
+    color: var(--color-neutral-white);
+}
+
+.content-container{
+    display: flex;
+    flex-direction: column;
+    width: 100vh;
+    margin-left: 109px;    
+    gap: 50px;
+}
+
+.title-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    gap: 13px;
+}
+
+.title-container h1{
+    font-size: var(--headline1);
+    text-align: center;
+    width: 587px;
+}
+
+.title-container p {
+    font-size: var(--paragraph1);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+}
+
+.input-box{
+    display: flex;
+    flex-direction: column;
+}
+
+.input-box input{
+    width: 365px;
+    height: 40px;
+    background-color: transparent;
+    border-bottom: 2px solid var(--color-neutral-light-gray);
+}
+
+.submit-entrada{
+    display: flex;
+    margin-top: 200px;
+    width: 338px;
+    height: 60px;
+    color: var(--color-neutral-white);
+    background-color: var(--color-secundary-light-red);
+    font-size: var(--button-text);
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    cursor: pointer;
+}
+
+.rodape{
+    margin-top: 170px;
+    margin-left: 0px ;
+}
+
+.rodape p{
+    color: var(--color-neutral-light-gray);
+    font-size: var(--rodape-text);
+}

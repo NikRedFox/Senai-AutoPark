@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}    
+
+body{    
+    display: flex;
+    background-color: #1F1F1F;
+}
+
+body h1{
+    color: white;
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 64px;
+}
+
+.text-container{
+    padding: 59px 66px 0 99px;
+}
+
+.text-box p{
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 112px;    
+}
+
+.form-container{
+    display: flex;
+    justify-content: center;
+}
+
+.form-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    gap: 27px;
+}
+
+.form-box input{
+    width: 420px;
+    height: 72px;
+    color: #424242;
+    padding: 0px 51px;
+}
+
+.form-box input::placeholder{
+    font-size: 16px;    
+}
+
+.form-box button{
+    width: 420px;
+    height: 72px;
+    background-color: #D45246;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+.form-box button:active{
+    transform: scale(0.95);    
+}
+
+.form-box img:nth-of-type(1){   
+    position: absolute;     
+    transform: translate(-185px, 26px);    
+}
+
+.form-box img:nth-of-type(2){   
+    position: absolute;     
+    transform: translate(-185px, 126px);    
+}
+
+.form-box img:nth-of-type(3){   
+    position: absolute;     
+    transform: translate(160px, 226px);    
+}
+
+.rodape{
+    margin-top: 300px;
+    margin-left: 0px ;
+}
+
+.rodape p{
+    color: #9E9E9E;
+    font-size: 12.8px;
+}
+

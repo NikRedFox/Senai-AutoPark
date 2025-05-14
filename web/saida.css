@@ -1,0 +1,177 @@
+@import url("./global.css");
+
+
+.main-container{
+    display: flex;
+    background-color: var(--color-primary-dark-gray);
+    color: var(--color-neutral-white);
+}
+
+.main-container img{
+    width: 40%;
+}
+
+.saida-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 65px 116px ;
+    gap: 30px;
+}
+
+.content-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.content-container form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.content-container button, a{
+    display: flex;
+    width: 296px;
+    height: 51px;
+    background-color: var(--color-secundary-light-red);
+    color: var(--color-neutral-white);
+    border-radius: 0px 10px 10px 10px;
+    font-size: var(--button-text);
+    font-weight: var(--button-weight);
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    
+}
+
+.content-container a{
+    display: flex;
+    width: 296px;
+    height: 51px;
+    background-color: var(--color-secundary-light-red);
+    color: var(--color-neutral-white);
+    border-radius: 0px 10px 10px 10px;
+    font-size: var(--button-text);
+    font-weight: var(--button-weight);
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+}
+
+.main-container h1{
+    font-size: var(--headline1);
+    font-weight: var(--headline1-weight);
+}
+
+.input-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.input-box label{
+    font-size: var(--button-text);
+    font-weight: var(--button-weight);
+}
+
+.input-box input{
+    background-color: var(--color-off-white);
+    height: 67px;
+    width: 567px;
+    border-radius: 5px;
+    padding-left: 15px;
+}
+
+.input-box input::placeholder{
+    
+    font-size: var(--input-text);
+}
+
+.cobranca-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 38px;
+}
+
+.cobranca-container h2{
+    font-size: var(--headline2);
+    font-weight: var(--headline2-weight);
+}
+
+.preco-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 668px;
+    height: 257px;
+    padding: 30px;
+    gap: 15px;
+    border-radius: 0px 20px 20px 20px;
+    background-color: var(--color-off-white);
+}
+
+.preco-box p:nth-of-type(1){
+    font-size: var(--paragraph1);
+    font-weight: var(--paragraph-weight);
+    color: var(--color-neutral-black);
+}
+
+.preco-box h1{
+    font-size: var(--headline1);
+    font-weight: var(--headline1-weight);
+    color: var(--color-secundary-light-red);
+}
+
+.date-box{
+    display: flex;
+    gap: 60px;
+}
+
+.date-card{
+    display: flex;
+    width: 270px;
+    height: 70px;
+    padding: 9px 12px;
+    border-radius: 10px;
+    border: 2px solid var(--color-neutral-light-gray) ;
+    color: var(--color-neutral-light-gray);
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+.date-text{
+    display: flex;
+    flex-direction: column;
+    font-size: var(--small-text);
+    color: var(--color-neutral-black);
+}
+
+.hour-box{
+    display: flex;
+    gap: 10px;
+}
+
+.botoes-pagamento{
+    display: flex;
+    gap: 53px;
+}
+
+.botoes-pagamento button{
+    width: 305px;
+    height: 73px;
+    background-color: var(--color-secundary-light-red);    
+    border-radius: 0px 10px 10px 10px;
+    padding: 20px 10px;
+    color: var(--color-neutral-white);
+    font-size: var(--button-text);
+    font-weight: var(--button-weight);
+    cursor: pointer; 
+    
+}
