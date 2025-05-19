@@ -1,15 +1,21 @@
 <!DOCTYPE html>
-<!--
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
--->
-<html>
-    <head>
-        <title>TODO supply a title</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    <body>
-        <div>TODO write content</div>
-    </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relatório de serviço</title>
+    <link rel="stylesheet" href="./src/styles/stylerelatorio.css">    
+    <link rel="Icon" href="../../assets/images/Icon-tab.svg">
+</head>
+
+<body>
+    <form method="get" action="relatorio_servico.jsp">
+<label for="dataInicio">Data Início:</label>
+<input type="date" name="dataInicio" required>
+<label for="dataFim">Data Fim:</label>
+<input type="date" name="dataFim" required>
+<button type="submit">Gerar Relatório</button>
+</form>
+
+</body>
 </html>

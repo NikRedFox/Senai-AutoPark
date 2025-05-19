@@ -1,0 +1,100 @@
+@import url(./style-global.css);
+
+body{
+    width: 100vw;
+    display: flex;
+    justify-content: center;    
+    background-image: url(./images/Bg-menu.svg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.precos-title-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.precos-title-container h1{
+    font-size: var(--headline1);
+    font-weight: var(--headline1-weight);
+    color: var(--color-neutral-white);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form h2{
+    font-size: var(--headline2);
+    font-weight: var(--headline2-weight);
+    color: var(--color-neutral-white);
+}
+
+.precos-container{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-primary-dark-gray);
+    width: 100%;
+    max-width: 1104px;
+    height: 100vh;
+    padding: 20px;
+    gap: 82px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+}
+
+form{
+    gap: 80px;
+}
+
+.precos-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px
+}
+
+.precos-form input{
+    width: 420px;
+    height: 72px;
+    padding: 0px 0px 0px 70px;
+}
+
+.btn-precos{
+    background-color: var(--color-secundary-light-red);
+    display: flex;
+    border-radius: 0px 20px 20px 20px;
+    width: 420px;
+    height: 72px;
+    align-items: center;
+    color: var(--color-neutral-white);
+    font-size: var(--button-text);
+    font-weight: var(--button-weight);
+    padding: 0px 50px;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.input-box{
+    position: relative;
+}
+
+.input-box img{
+    position: absolute;
+    top: 30%;
+    left: 20px;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Alterar Registro de Funcionário</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="./images/Icon-tab.svg">
+        <link rel="stylesheet" href="./style-alterar-funcionario.css">
+    </head>
+    <body>
+        <main class="alterar-container">        
+         <div class="alterar-title-container">
+            <img src="./images/Logo-Senai-AutoPark.svg" alt="">
+            <h1>Alterar Registro de Funcionário</h1>
+        </div>
+
+        <form method="post" action="alterar_busca.jsp">
+            <fieldset class="alterar-form">
+                <div class="input-box">
+                    <img src="./images/icon-user.svg" alt="">
+                    <input type="number" placeholder="ID do funcionário" id="funcionarioid" name="funcionarioid" required>
+                </div>
+            </fieldset>
+
+            <button class="btn-alterar" type="submit">Alterar</button>            
+        </form>
+    </main>
+    </body>
+</html>

@@ -1,6 +1,6 @@
 <%@page import ="java.sql.Connection" %>
 <%@page import ="java.sql.DriverManager" %>
-<%@page import ="java.sql.*" %>
+<%@page import = "java.sql.*" %>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 
@@ -43,17 +43,17 @@
             } else {
                 response.sendRedirect("menu_operador.html");
             }
-                   } else {
-            response.sendRedirect("error.html"); 
-        }
+                   } 
         
         rs.close();
         st.close();
         conecta.close();
 
     } catch (Exception x) {
-        response.sendRedirect("error.html");
-    }
+    out.println("Erro: " + x.getMessage());
+    x.printStackTrace(new java.io.PrintWriter(out));
+}
+
  
 %>
 

@@ -27,7 +27,7 @@
 
         String url = "jdbc:mysql://localhost:3306/senai_autopark2";
         String user = "root";
-        String password = "root";
+        String password = "";
 
         conecta = DriverManager.getConnection(url, user, password);
 

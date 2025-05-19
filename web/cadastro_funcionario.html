@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cadastro de Funcionários</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="./images/Icon-tab.svg">
+        <link rel="stylesheet" href="./style-cadastro-funcionario.css">
+    </head>
+    <body>
+        <main class="cadastro-container">        
+         <div class="cadastro-title-container">
+            <img src="./images/Logo-Senai-AutoPark.svg" alt="">
+            <h1>Cadastro de Funcionários</h1>
+        </div>
+
+        <form method="post" action="cadastro_funcionario.jsp">
+            <fieldset class="cadastro-form">
+                <div class="input-box">
+                    <img src="./images/icon-user.svg" alt="">
+                    <input type="text" placeholder="Nome Completo" id="nome_func" name="nome_func" required>
+                </div>
+                <div class="input-box">
+                    <img src="./images/icon-user.svg" alt="">
+                    <input type="text" placeholder="Usuário" id="usuario" name="usuario" required>
+                </div>
+                <div class="input-box">
+                    <img src="./images/lock.svg" alt="">
+                    <input type="password" placeholder="Senha" id="senha" name="senha" required>
+                </div>
+                <div class="input-box">
+                    <img src="./images/mail.svg" alt="">
+                    <input type="email" placeholder="E-mail" id="email" name="email" required>
+                </div>
+                <div class="input-box">
+                    <img src="./images/Briefcase.svg" alt="">
+                    <input type="text" placeholder="Cargo" id="cargo" name="cargo" required>
+                </div>
+            </fieldset>
+
+            <button class="btn-cadastro" type="submit">Cadastrar</button>
+        </form>
+        
+    </main>
+    </body>
+</html>
