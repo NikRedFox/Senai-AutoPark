@@ -88,7 +88,9 @@ Ferramentas:
 ## 🦸 Autores
 <a href="https://github.com/NikRedFox">Nikolas Barbosa dos Santos</a>
 <br>
+<br>
 <a href="https://github.com/itsmsarah">Sarah Mendes</a>
+<br>
 <br>
 <a href="https://github.com/tomuichro">Ana Julia Vieira Lima</a>
 
